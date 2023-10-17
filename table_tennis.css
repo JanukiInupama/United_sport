@@ -1,0 +1,86 @@
+	
+#TThead{
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+	color: #2C3333;
+}
+
+#doubles{
+	float:left;
+	width:500px; 
+	height:300px;
+	padding-right: 10px
+}
+
+#facts{
+	font-size:25px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: grey;
+	padding-bottom: 10px;	
+}
+
+#ball{
+	float:right;
+	width:300px;
+	height:200px;
+	padding-left: 10px;
+}
+
+#racket{
+	float:left;
+	width:300px; 
+	height:250px;
+	padding-right: 10px
+}
+
+#table1{
+	float:right;
+	width:450px; 
+	height:350px;
+	padding-left: 10px;
+}
+
+#table2{
+	width:950px; 
+	height:300px;
+	padding-left: 30px;
+}
+
+#singles{
+	float:right;
+	width:500px; 
+	height:300px;
+}
+
+.ttvideo{
+	right:0;
+	bottom:0;
+	height: 60%;
+	width: 60%;
+	padding-left: 20%;
+	padding-top: 1%;
+}
+
+.head{
+	font-size:20px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid black;
+}
+
+.subhead{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.para{
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+	

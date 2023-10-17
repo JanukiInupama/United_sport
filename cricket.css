@@ -1,0 +1,34 @@
+
+#cricket{
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+}
+
+#doubles{
+	padding-right: 10px
+}
+
+
+
+.head{
+	font-size:20px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid black;
+}
+
+.subhead{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.para{
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+h4{
+	font-size: 30px;
+}

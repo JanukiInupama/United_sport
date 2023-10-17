@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+
+        <link rel="stylesheet" href="common.css">
+        <link rel="stylesheet" href="comment.css">
+		    <meta name='viewport' content='width=device-width, initial-scale=1'>
+		    <script src="https://kit.fontawesome.com/c156086429.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <script src="comment.js"></script>
+
+        <title>Feedback form</title>
+    </head>
+    
+    <body>
+		<div class="navabar" id="navbar">
+            <nav>
+            <img src="New_folder/logo.jpg" alt="logo">
+            <a href="Main(Home).html">Home</a>
+            <a href="">Blog</a>
+            <a href="">Buy Products</a>
+            <a href="comment.html">Query Form</a>
+            <a href="">Quiz</a>
+            <a href="">Student Details</a>
+            <a href="">Site Map</a>
+            <a href="">Gallery</a>
+    </nav>
+        </div>
+	
+        <br><br><br><br><br><br><br>
+		<div id="top"><h1>Feedback Form</h1></div>
+        <br><br>
+        
+        <form id="comments" method="post" action="mailto:hkjinupama@gmail.com" name="form">
+            <fieldset>
+                <h3>Enter your name</h3><br><br>
+                <input type="text" name="name" id="name" required>
+            </fieldset>
+
+            <fieldset>
+                <h3>Enter your email</h3><br><br>
+                <input type="text" name="email" id="email" required>
+            </fieldset>
+
+            <fieldset>
+                <div id="question1">
+                    <h3>How satisfied were you with our website today</h3> <br> <br></div>
+
+                <div id="radio1">    
+                    <input type ="radio" id="r1" name="1">
+                    <label for="r1">1</label> <br><br>
+                    <input type ="radio" id="r2" name="r2">
+                    <label for="r2">2</label> <br><br>
+                    <input type ="radio" id="r3" name="r3">
+                    <label for="r3">3</label> <br><br>
+                    <input type ="radio" id="r4" name="r4">
+                    <label for="r4">4</label> <br><br>
+                    <input type ="radio" id="r5" name="r5">
+                    <label for="r5">5</label> <br><br>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+            <div id="question2">
+                <h3>Please could you tell us your reasons for giving this rating.</h3><br><br></div>
+
+            <div id="textarea">
+                <textarea id="comment" name="comments" required></textarea> 
+            </div>
+
+            </fieldset>
+
+            <fieldset>
+            <div>
+                <h3>How do you want to complete the task today?</h3><br><br>
+                <select id="method-select" name="method">
+                    <option value="phone">Phone</option>
+                    <option value="website">Website</option>
+                    <option value="webchat">Webchat</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="email">Email</option>
+                </select>
+                <br>
+                <br>
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <div id="question3">
+                <h3>What is the likelihood that you will return to the site?</h3><br><br></div>
+
+            <div id="radio2">    
+                <input type="radio" id="extremely-likely" name="likelihood" value="extremely-likely">
+                <label for="extremely-likely">Extremely Likely</label>
+                <br><br>
+                
+                <input type="radio" id="very-likely" name="likelihood" value="very-likely">
+                <label for="very-likely">Very Likely</label>
+                <br><br>
+                
+                <input type="radio" id="moderately-likely" name="likelihood" value="moderately-likely">
+                <label for="moderately-likely">Moderately Likely</label>
+                <br><br>
+                
+                <input type="radio" id="slightly-likely" name="likelihood" value="slightly-likely">
+                <label for="slightly-likely">Slightly Likely</label>
+                <br><br>
+                
+                <input type="radio" id="unlikely" name="likelihood" value="unlikely">
+                <label for="unlikely">Unlikely</label>
+                 <br>
+                 <br>
+            </div>
+
+            </fieldset>
+
+            <div class="container">
+              <button type="popup" class="btn">Submit</button>
+            </div>
+            </div>
+        </form>
+
+    
+
+<!-- back to top button -->
+<div class="back-to-top">
+    <a href="#navbar">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+     </a>
+  </div>
+    <!--javascript file for footer with page editor-->
+    <!-- footer -->
+    <Footer class="footer">
+  <div class="social">
+    <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.snapchat.com/en-US"><i class="fab fa-snapchat"></i></a>
+    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fab fa-twitter"></i></a>
+    <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+  </div>
+  <ul class="list">
+    <li>
+      <a href="Main(Home).html">Home</a>
+    </li>
+    <li>
+      <a href="#">Shop</a>
+    </li>
+    <li>
+      <a href="#">About us</a>
+    </li>
+    <li>
+      <a href="#">Terms</a>
+    </li>
+    <li>
+      <a href="#">Privacy Policy</a>
+    </li>
+     <li>
+      <a href="page_editor.html">Page Editor</a>
+    </li>
+  </ul><br><br>
+  <p class="copyright">United Sports @ 2023</p>
+</Footer>
+
+
+<!-- end of the footer -->
+    
+    
+    
+    
+    
+</body>
+</html>

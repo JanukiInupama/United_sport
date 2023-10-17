@@ -1,0 +1,73 @@
+h1{
+    font-size:80px;
+    font-weight:500;
+    color:white;
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+}
+
+#topic h3{
+    text-align: center;
+}
+
+#topic {
+    background-image:url('New_folder/pic6.jpg');
+}
+
+.intro{
+    clear:both;
+}
+
+.intro-topic{
+    margin-left:100px;
+    padding:100px 0 180px 250px;
+    width: 30%; 
+    height: 100px; 
+    float: left;
+    color:white;
+}
+
+.intro-description{
+    padding:130px 210px 80px 0;
+    margin-bottom:150px;
+    margin-left:40%; 
+    height: 100px;
+}
+
+.images{
+    display:flex;
+    padding:80px 20px 120px 0;
+    margin-left:65px;
+}
+
+.img-column{
+    flex:25%;
+}
+
+.images a{
+    font-family:"Playfair Display";
+    color:black;
+    font-size:30px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.sports-content{
+    text-align:justify;
+    float:left;
+    width:60%;
+}
+.about{
+    background-image:url("New_folder/pic5.jpeg");
+    height:70vh;
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.About{
+    text-align:justify;
+    float:left;
+    width:60%;
+    padding: 30px;
+    color: #fff;
+}

@@ -1,0 +1,73 @@
+h1{
+	font-size:40px;
+	text-align:center;
+	font-family:"Playfair Display","Open Sans", "sans-serif";
+	clear:both;
+    color: #000;
+}
+
+
+body{
+    font-family: Arial Narrow;
+    margin: 0;
+    padding: 0%;
+    color: white;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset{
+    border: 1px solid  #2C3333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2C3333;
+}
+label.radio{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 19px;
+    display: inline-block;
+    margin:0;
+    padding:0;
+
+}
+
+input[type ="radio"], input[type ="checkbox"]{
+    margin-right: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+}
+
+
+h3{
+    font-size:20px;
+    color:white;
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+    font-weight:500;
+}
